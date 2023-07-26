@@ -1,0 +1,137 @@
+* {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    list-style: none;
+    margin: 0;
+}   
+body {
+    margin: 0;
+    background-color: #000;
+    text-align: center;
+    /* filter: opacity(0.5) drop-shadow(0 0 0 #000); */
+}
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    z-index: 1;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+    margin: 0;
+}
+.logo {
+    height: 50px;
+    filter: opacity(0.5) drop-shadow(0 0 0 #000);
+}
+.header .nav ul {
+    display: flex;
+}
+.header .nav ul li {
+    margin: 0 10px;
+    text-decoration: underline;
+    cursor: pointer;
+    filter: opacity(0.5) drop-shadow(0 0 0 #000);
+}
+main {
+    filter: opacity(0.5) drop-shadow(0 0 0 #000);
+}
+h2 {
+    font-size: 40px;
+}
+main {
+    
+}
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 700px;
+    width: 1490px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-size: cover;
+    
+}
+.section-1 div{
+    text-align: center;
+    line-height: 45px;
+    height: 100px;
+    width: 1490px;
+    background-color: #000;
+}
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-container {
+    text-align: center;
+    padding-top: 10px;
+}
+.box {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+.box  .box-img {
+    width: 300px;
+    height: 200px;
+}
+.box-container {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+    text-align: center;
+    margin: 20px;
+}
+.section-3 {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 1490px;
+    height: 500px;
+    margin: 0 auto;
+}
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box-container-section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3 div {
+    margin: 15px;
+}
+.box-section-3 {
+    width: 300px;
+    background-color: #000;
+    opacity: 1;
+    line-height: 70px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 30px;
+}
+.section-4 {
+    line-height: 70px;
+    height: 200px;
+}
+.footer {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    filter: opacity(0.5) drop-shadow(0 0 0 #000);
+}
